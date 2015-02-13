@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Smart Habits</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+</head>
+
+
+<body>
+<div class="wrapper">
+    <header class="navbar navbar-fixed-top">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Smart Habits" /></a></div>
+        <div class="nav-wrp">
+            <ul class="nav navbar-nav" role="navigation">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="how-it-works.html">How it works</a></li>
+                <li class="nav-item"><a href="team.html">The Team</a></li>
+                <li class="nav-item"><a href="plans.html">Plans</a></li>
+                <li class="nav-item"><a href="blog.html">Blog</a></li>
+                <li class="nav-item"><a href="#" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
+                <li class="nav-item"><a href="programs.html">Corporate Programs</a></li>
+            </ul>
+            <a href="#" data-toggle="modal" data-target="#login-modal" class="login-lnk">&bull; Log in</a>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="user-page">
+            <div class="content">
+                <aside class="user-menu">
+                    <div class="user-info-wrp">
+                        <div class="userpic"><img src="images/userpic.png" alt="" /></div>
+                        <div class="user-info">
+                            <div class="greeting"><span class="user-name">Vasilii_test3 Racovitsa</span></div>
+                            Last sing in : 16:11 Feb 27th 2014
+                            <a href="#" class="logout-lnk">Logout</a>
+                        </div>
+                    </div>
+                    <div class="user-nav">
+                        <ul class="nav nav-tabs tabs-user-menu">
+                            <li class="active user-menu-item item-1">
+                                <a href="#home" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Home</a>
+                            </li>
+                            <li class="user-menu-item item-2">
+                                <a href="#item-2" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Timeline</a>
+                            </li>
+                            <li class="user-menu-item item-3">
+                                <a href="#item-3" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>My data</a>
+                            </li>
+                            <li class="user-menu-item item-4">
+                                <a href="#item-4" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Sessions</a>
+                            </li>
+                            <li class="user-menu-item item-5">
+                                <a href="#item-5" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>My team</a>
+                            </li>
+                            <li class="user-menu-item item-6">
+                                <a href="#item-6" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Assessment</a>
+                            </li>
+                            <li class="user-menu-item item-7">
+                                <a href="#item-7" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Profile</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content tab-user-content">
+                            <div class="tab-pane active" id="home">
+                                <div class="user-content-header">Home</div>
+                            </div>
+                            <div class="tab-pane" id="item-2">
+                                <div class="user-content-block timeline-block timeline-current-state">
+                                    <span class="week-number">week 14</span>
+                                    <span class="week-result">Current</span>
+                                </div>
+                                <div class="user-content-block timeline-block timeline-decrease-state">
+                                    <span class="week-number">week 14</span>
+                                    <span class="week-result">- 0.7 kg</span>
+                                </div>
+                                <div class="user-content-block timeline-block timeline-decrease-state">
+                                    <span class="week-number">week 14</span>
+                                    <span class="week-result">- 0.7 kg</span>
+                                </div>
+                                <div class="user-content-block timeline-block timeline-same-state">
+                                    <span class="week-number">week 14</span>
+                                    <span class="week-result">0</span>
+                                </div>
+                                <div class="user-content-block timeline-block timeline-increase-state">
+                                    <span class="week-number">week 14</span>
+                                    <span class="week-result">0.5 kg</span>
+                                </div>
+                                <button class="user-content-block-button2 button-center">Show more...</button>
+                            </div>
+                            <div class="tab-pane" id="item-3"><div class="user-content-header">My Data</div></div>
+                            <div class="tab-pane" id="item-4"><div class="user-content-header">Sessions</div></div>
+                            <div class="tab-pane" id="item-5"><div class="user-content-header">Me Team</div></div>
+                            <div class="tab-pane" id="item-6"><div class="user-content-header">Assessment</div></div>
+                            <div class="tab-pane" id="item-7"><div class="user-content-header">Profile</div></div>
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="user-content">
+                    <div class="user-content-inner">
+                        <h1 class="page-header timeline-page-header">Timeline</h1>
+                        <div class="timeline-items-wrp">
+                            <div class="timeline-item-block">
+                                <div class="timeline-date">
+                                    <div class="timeline-date-inner">
+                                        <span>TUE 22 NOV 2013</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-message">
+                                    <div class="timeline-message-text">
+                                        Good work! You reached your daily activity goal. <span class="message-text-data">10,734</span> steps. You completed a <span class="message-text-data">4.11 km</span> run.
+                                        <div>Distance: <span class="message-text-data">4.11 km</span></div>
+                                        <div>Calories Burned: <span class="message-text-data">430</span></div>
+                                        <div>Duration: <span class="message-text-data">37:05</span></div>
+                                    </div>
+                                    <span class="message-time">9:15</span>
+                                </div>
+                                <div class="timeline-message">
+                                    <div class="timeline-message-text">
+                                        You took weight measurements
+                                        <div class="message-text-data">Weight: 91.3</div>
+                                        <div class="message-text-data">Percent body fat: 22.8%</div>
+                                    </div>
+                                    <span class="message-time">16:28</span>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item-block">
+                                <div class="timeline-date">
+                                    <div class="timeline-date-inner">
+                                        <span>SUN 29 SEP 2013 </span>
+                                    </div>
+                                </div>
+                                <div class="timeline-message">
+                                    <div class="timeline-message-text">You completed a <span class="message-text-data">4.11 km</span> run</div>
+                                    <span class="message-time">9:15</span>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item-block">
+                                <div class="timeline-date">
+                                    <div class="timeline-date-inner">
+                                        <span>THU 7 NOV 2014</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-message">
+                                    <div class="timeline-message-text">
+                                        Good work! You reached your daily activity goal. <span class="message-text-data">10,734</span> steps.
+                                    </div>
+                                    <span class="message-time">9:15</span>
+                                </div>
+                                <div class="timeline-message">
+                                    <div class="timeline-message-text">
+                                        You took weight measurements
+                                        <div class="message-text-data">Weight: 91.3</div>
+                                        <div class="message-text-data">Percent body fat: 22.8%</div>
+                                    </div>
+                                    <span class="message-time">16:28</span>
+                                </div>
+                                <div class="timeline-message">
+                                    <div class="timeline-message-text">
+                                        You achieved new personal records for running
+                                        <div>Distance: <span class="message-text-data">4.11 km</span></div>
+                                        <div>Calories Burned: <span class="message-text-data">430</span></div>
+                                        <div>Duration: <span class="message-text-data">37:05</span></div>
+                                    </div>
+                                    <span class="message-time">16:28</span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination">
+                            <li class="prev"><a href="#">&lt;</a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li class="next"><a href="#">&gt;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="block-left">
+                <h3 class="f-heading">Follow us</h3>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <img src="images/logo.png" alt="Smart Habits" class="f-logo" />
+                <div class="social">
+                    <a class="social-lnk tw" href="http://twitter.com">Twitter</a>
+                    <a class="social-lnk fb" href="http://facebook.com">Facebook</a>
+                    <a class="social-lnk in" href="http://linkedin.com">LinkedIn</a>
+                    <a class="social-lnk yt" href="http://youtube.com">Youtube</a>
+                    <a class="social-lnk inst" href="http://instagram.com">Instagram</a>
+                </div>
+            </div>
+            <div class="block-center">
+                <h3 class="f-heading">Sing up to our newsletter</h3>
+                Enter your email address for signup as our newsletter
+                <form action="#" method="post" class="subscribe-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter your email" />
+                        <span class="input-group-addon">&nbsp;</span>
+                    </div>
+                </form>
+            </div>
+            <div class="block-right">
+                <h3 class="f-heading">Tags</h3>
+                <div class="tag-cloud">
+                    <a class="tag-lnk" href="#">FAQs</a>
+                    <a class="tag-lnk" href="#">Eating Habits Servey</a>
+                    <a class="tag-lnk" href="#">Terms &amp; Conditions</a>
+                    <a class="tag-lnk" href="#">Privacy</a>
+                    <a class="tag-lnk" href="#">Disclaimer</a>
+                    <a class="tag-lnk" href="#">Work with us</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright &copy; Smart Habits</div>
+    </footer>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+    jQuery(document).ready(function() {
+        $('.nav-tabs li:eq(1) a').tab('show');
+
+        $(".timeline-message-text").mCustomScrollbar();
+    });
+</script>
+</body>
+</html>

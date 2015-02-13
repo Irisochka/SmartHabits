@@ -1,0 +1,21 @@
+.settings-form .form-vertical-header .inner {
+    /*-ms-filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=-1.2246063538223773e-16, M21=1.2246063538223773e-16, M22=-1, sizingMethod='auto expand');*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0, M12=1, M21=-1, M22=0, SizingMethod='auto expand')";
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top: 0;
+    /*writing-mode: lr-tb;*/
+}
+
+.settings-form .fieldset-top .form-vertical-header .inner {
+    top: -15px;
+}
+
+.settings-form .fieldset-bottom .form-vertical-header .inner {
+    top: -40px;
+}
+
+.bootstrap-select {
+    /*width: 220px\9; IE8 and below*/
+    width: 220px\0; /*IE9 and below*/
+}

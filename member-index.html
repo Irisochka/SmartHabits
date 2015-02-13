@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Smart Habits</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+</head>
+
+
+<body>
+<div class="wrapper">
+    <header class="navbar navbar-fixed-top">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Smart Habits" /></a></div>
+        <div class="nav-wrp">
+            <ul class="nav navbar-nav" role="navigation">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="how-it-works.html">How it works</a></li>
+                <li class="nav-item"><a href="team.html">The Team</a></li>
+                <li class="nav-item"><a href="plans.html">Plans</a></li>
+                <li class="nav-item"><a href="blog.html">Blog</a></li>
+                <li class="nav-item"><a href="#" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
+                <li class="nav-item"><a href="programs.html">Corporate Programs</a></li>
+            </ul>
+            <a href="#" data-toggle="modal" data-target="#login-modal" class="login-lnk">&bull; Log in</a>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="user-page">
+            <div class="content">
+                <aside class="user-menu">
+                    <div class="user-info-wrp">
+                        <div class="userpic"><img src="images/userpic.png" alt="" /></div>
+                        <div class="user-info">
+                            <div class="greeting"><span class="user-name">Vasilii_test3 Racovitsa</span></div>
+                            Last sing in : 16:11 Feb 27th 2014
+                            <a href="#" class="logout-lnk">Logout</a>
+                        </div>
+                    </div>
+                    <div class="user-nav">
+                        <ul class="nav nav-tabs tabs-user-menu">
+                            <li class="active user-menu-item item-1">
+                                <a href="#home" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Home</a>
+                            </li>
+                            <li class="user-menu-item item-2">
+                                <a href="#item-2" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Timeline</a>
+                            </li>
+                            <li class="user-menu-item item-3">
+                                <a href="#item-3" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>My data</a>
+                            </li>
+                            <li class="user-menu-item item-4">
+                                <a href="#item-4" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Sessions</a>
+                            </li>
+                            <li class="user-menu-item item-5">
+                                <a href="#item-5" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>My team</a>
+                            </li>
+                            <li class="user-menu-item item-6">
+                                <a href="#item-6" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Assessment</a>
+                            </li>
+                            <li class="user-menu-item item-7">
+                                <a href="#item-7" data-toggle="tab"><span class="user-menu-item-img">&nbsp;</span>Profile</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content tab-user-content">
+                            <div class="tab-pane active" id="home">
+                                <div class="user-content-header">Home</div>
+                                <div class="user-content-block coaching-block">
+                                    <h2 class="user-content-block-header">Coaching session</h2>
+                                    Tom Vinciguerra  - Psychologist<br />
+                                    Skype ID: tom.vinciguerra
+                                    <div class="skype-time">9.30</div>
+                                    <a class="user-content-block-button" href="#">save</a>
+                                </div>
+                                <div class="user-content-block exercise-block">
+                                    <h2 class="user-content-block-header">Exercise</h2>
+                                    <label class="check-label">
+                                        <input type="checkbox" name="" /><div class="fake-checkbox"></div>
+                                        <div class="check-label-text">2.5km morning walk</div>
+                                    </label>
+                                    <label class="check-label">
+                                        <input type="checkbox" name="" /><div class="fake-checkbox"></div>
+                                        <div class="check-label-text">1.5 km jog</div>
+                                    </label>
+                                    <a class="user-content-block-button" href="#">save</a>
+                                </div>
+                                <div class="user-content-block menu-block">
+                                    <h2 class="user-content-block-header">Menu</h2>
+                                    <h3 class="category-header">Breakfast</h3>
+                                    <label class="check-label">
+                                        <input type="checkbox" name="" /><div class="fake-checkbox"></div>
+                                        <div class="check-label-text">
+                                            Vegetable Omelette
+                                            <a href="#" class="small-lnk">See recipe</a>
+                                        </div>
+                                    </label>
+                                    <h3 class="category-header">Lunch</h3>
+                                    <label class="check-label">
+                                        <input type="checkbox" name="" /><div class="fake-checkbox"></div>
+                                        <div class="check-label-text">
+                                            Chicken Caesar Salad
+                                            <a href="#" class="small-lnk">See recipe</a>
+                                        </div>
+                                    </label>
+                                    <h3 class="category-header">Dinner</h3>
+                                    <label class="label-ch">
+                                        <input type="checkbox" name="" /><div class="fake-checkbox"></div>
+                                        <div class="check-label-text">
+                                            Chicken Caesar Salad
+                                            <a href="#" class="small-lnk">See recipe</a>
+                                        </div>
+                                    </label>
+                                    <label class="check-label">
+                                        <input type="checkbox" name="" /><div class="fake-checkbox"></div>
+                                        <div class="check-label-text">
+                                            Tuna and Spinach Wrap
+                                            <a href="#" class="small-lnk">See recipe</a>
+                                        </div>
+                                    </label>
+                                    <a class="user-content-block-button" href="#">save</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="item-2"><div class="user-content-header">Timeline</div></div>
+                            <div class="tab-pane" id="item-3"><div class="user-content-header">My Data</div></div>
+                            <div class="tab-pane" id="item-4"><div class="user-content-header">Sessions</div></div>
+                            <div class="tab-pane" id="item-5"><div class="user-content-header">Me Team</div></div>
+                            <div class="tab-pane" id="item-6"><div class="user-content-header">Assessment</div></div>
+                            <div class="tab-pane" id="item-7"><div class="user-content-header">Profile</div></div>
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="user-content">
+                    <div class="user-notifications">
+                        <div class="user-notifications-tab">
+                            <div class="notification-wrp">
+                                <a href="#" class="notification-circle notification-session">
+                                    <span class="notification-count">3</span>
+                                </a>
+                            </div>
+
+                            <div class="notification-wrp">
+                                <a href="#" class="notification-circle notification-data">
+                                    <span class="notification-count">13</span>
+                                </a>
+                            </div>
+
+                            <div class="notification-wrp">
+                                <a href="#" class="notification-circle notification-billing">
+                                    <span class="notification-count">28</span>
+                                </a>
+                            </div>
+
+                            <div class="notification-wrp">
+                                <a href="#" class="notification-circle notification-messages">
+                                    <span class="notification-count">59</span>
+                                </a>
+                            </div>
+
+                            <div class="notification-wrp nw-message">
+                                <div class="notification-message" id="UserNotificationMessage">
+                                    <div class="scroll">
+                                        <a class="button-up" href="#"></a>
+                                        <a class="button-down" href="#"></a>
+                                    </div>
+                                    <div class="notification-message-inner">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <span class="user-notifications-tab-line">&nbsp;</span>
+                        </div>
+                    </div>
+
+                    <div class="user-content-inner">
+                        <div class="datepicker-wrp">
+                            <button class="date-prev">&lt;</button>
+                            <input type="text" id="datepicker" />
+                            <button class="date-next">&gt;</button>
+                        </div>
+
+
+                        <h1 class="page-header no-icon">Program Goals <span class="note">* 7 day moving average</span></h1>
+
+                        <div class="goals-area">
+                            <div class="goal-wrp goal-wrp-1">
+                                <div id="goal1" class="goal pull-left"></div>
+                                <div class="daily-number">
+                                    <span class="number">5.2</span>
+                                    <span class="unit">kg lost</span>
+                                </div>
+                                <div class="result">
+                                    <span>Weight Loss</span>
+                                    <span class="number-result">11 kg</span>
+                                </div>
+                            </div>
+                            <div class="goal-wrp goal-wrp-2">
+                                <div id="goal2" class="goal pull-left"></div>
+                                <div class="daily-number">
+                                    <span class="number">18,136</span>
+                                    <span class="unit">steps</span>
+                                </div>
+                                <div class="result">
+                                    <span>Activity*</span>
+                                    <span class="number-result">10,000</span>
+                                </div>
+                            </div>
+                            <div class="goal-wrp goal-wrp-3">
+                                <div id="goal3" class="goal pull-left"></div>
+                                <div class="daily-number">
+                                    <span class="number">82%</span>
+                                    <span class="unit"></span>
+                                </div>
+                                <div class="result">
+                                    <span>Diet adherence*</span>
+                                    <span class="number-result">100%</span>
+                                </div>
+                            </div>
+                            <div class="goal-wrp goal-wrp-4">
+                                <div id="goal4" class="goal pull-left"></div>
+                                <div class="daily-number">
+                                    <span class="number">7 Hrs</span>
+                                    <span class="unit"></span>
+                                </div>
+                                <div class="result">
+                                    <span>Sleep*</span>
+                                    <span class="number-result">12,5 Hrs</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-panel this-week">
+                            <div class="user-panel-header vertical">This Week</div>
+                            <div class="user-panel-row user-panel-goal1">
+                                <div class="progress-scale">
+                                    <span class="start pull-left">0.30kg</span>
+                                    <span class="end pull-right">0.45kg</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="user-panel-row user-panel-goal2">
+                                <div class="progress-scale">
+                                    <span class="start pull-left">30,800steps</span>
+                                    <span class="end pull-right">77,000steps</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="user-panel-row user-panel-goal3">
+                                <div class="progress-scale">
+                                    <span class="start pull-left">82%</span>
+                                    <span class="end pull-right">100%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="user-panel-row user-panel-goal4">
+                                <div class="progress-scale">
+                                    <span class="start pull-left">18.5Hrs </span>
+                                    <span class="end pull-right">52.5Hrs</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-panel last-week">
+                            <div class="user-panel-header vertical">Last Week</div>
+                            <div class="user-panel-row user-panel-goal1">
+                                <div class="progress-scale">
+                                    <span class="start pull-left">0.30kg</span>
+                                    <span class="end pull-right">0.45kg</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="user-panel-row user-panel-goal2">
+                                <div class="progress-scale">
+                                    <span class="start pull-left">30,800steps</span>
+                                    <span class="end pull-right">77,000steps</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="user-panel-row user-panel-goal3">
+                                <div class="progress-scale">
+                                    <span class="start pull-left">82%</span>
+                                    <span class="end pull-right">100%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="user-panel-row user-panel-goal4">
+                                <div class="progress-scale">
+                                    <span class="start pull-left">18.5Hrs </span>
+                                    <span class="end pull-right">52.5Hrs</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="block-left">
+                <h3 class="f-heading">Follow us</h3>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <img src="images/logo.png" alt="Smart Habits" class="f-logo" />
+                <div class="social">
+                    <a class="social-lnk tw" href="http://twitter.com">Twitter</a>
+                    <a class="social-lnk fb" href="http://facebook.com">Facebook</a>
+                    <a class="social-lnk in" href="http://linkedin.com">LinkedIn</a>
+                    <a class="social-lnk yt" href="http://youtube.com">Youtube</a>
+                    <a class="social-lnk inst" href="http://instagram.com">Instagram</a>
+                </div>
+            </div>
+            <div class="block-center">
+                <h3 class="f-heading">Sing up to our newsletter</h3>
+                Enter your email address for signup as our newsletter
+                <form action="#" method="post" class="subscribe-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter your email" />
+                        <span class="input-group-addon">&nbsp;</span>
+                    </div>
+                </form>
+            </div>
+            <div class="block-right">
+                <h3 class="f-heading">Tags</h3>
+                <div class="tag-cloud">
+                    <a class="tag-lnk" href="#">FAQs</a>
+                    <a class="tag-lnk" href="#">Eating Habits Servey</a>
+                    <a class="tag-lnk" href="#">Terms &amp; Conditions</a>
+                    <a class="tag-lnk" href="#">Privacy</a>
+                    <a class="tag-lnk" href="#">Disclaimer</a>
+                    <a class="tag-lnk" href="#">Work with us</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright &copy; Smart Habits</div>
+    </footer>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/raphael-min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="js/goals.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<script>
+    jQuery(document).ready(function() {
+        // Must be equal to .goal width/height
+        var areaSize = 230;
+
+        // ID, size, percentage, main color, shadow color
+        drawGoal("goal1", areaSize, 60, "#0080ff", "#d5d3d3");
+        drawGoal("goal2", areaSize, 90, "#e23ab1", "#d5d3d3");
+        drawGoal("goal3", areaSize, 80, "#67b700", "#d5d3d3");
+        drawGoal("goal4", areaSize, 70, "#f26100", "#d5d3d3");
+
+        var datepicker = $( "#datepicker" ).datepicker({
+            dateFormat: "DD d, MM yy",
+            navigationAsDateFormat: true,
+            nextText: ">",
+            prevText: "<",
+            defaultDate: +7
+        });
+
+        datepicker.datepicker("setDate", new Date());
+        datepicker.datepicker("widget").addClass("index-datepicker")
+
+        var currentDate = 0;
+
+        $(".date-prev").on("click", function() {
+            currentDate--;
+            datepicker.datepicker("setDate", currentDate === 0 ? new Date() : currentDate);
+        });
+
+        $(".date-next").on("click", function() {
+            currentDate++;
+            datepicker.datepicker("setDate", currentDate === 0 ? new Date() : currentDate);
+        });
+
+        // Scroll
+
+        var realHeight = $(".notification-message-inner")[0].scrollHeight,
+            currentScroll = 0,
+            step = 50; // in pixels
+
+
+        $(".button-up").on("click", function() {
+            var newScroll = currentScroll - step;
+
+            if(newScroll < 0) {
+                currentScroll = 0;
+            } else {
+                currentScroll = newScroll;
+            }
+
+            $(".notification-message-inner").animate({ scrollTop: currentScroll + "px", queue: false });
+
+            return false;
+        });
+
+        $(".button-down").on("click", function() {
+            var newScroll = currentScroll + step;
+
+            if(newScroll >= realHeight - step) {
+                currentScroll = realHeight - step * 2;
+            } else {
+                currentScroll = newScroll;
+            }
+
+            $(".notification-message-inner").animate({ scrollTop: currentScroll + "px", queue: false });
+
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

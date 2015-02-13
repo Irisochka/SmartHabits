@@ -1,0 +1,11 @@
+.ie10 .settings-form .form-vertical-header .inner {
+    transform: rotate(180deg);
+}
+
+.ie10 .settings-form .fieldset-top .form-vertical-header .inner {
+    top: -15px;
+}
+
+.ie10 .settings-form .fieldset-bottom .form-vertical-header .inner {
+    top: -40px;
+}
